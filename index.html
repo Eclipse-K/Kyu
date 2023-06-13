@@ -13,6 +13,8 @@
       }
 
       .container {
+        position: relative;
+        perspective: 1000px;
         max-width: 800px;
         margin: 40px auto;
         padding: 20px;
@@ -65,48 +67,89 @@
           height: 150px;
         }
       }
+
+      .card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+      }
+
+      .card.flipped {
+        transform: rotateY(180deg);
+      }
+
+      .front,
+      .back {
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+
+      .back {
+        transform: rotateY(180deg);
+        background-image: url("your_image.jpg");
+        background-size: cover;
+        background-position: center;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>개발자 이력서</h1>
-      <img src="your_photo.jpg" alt="프로필 사진" />
-      <p>이름: 개발자 이름</p>
-      <p>기술 스택: HTML, CSS, JavaScript, Python</p>
-      <h2>경력</h2>
-      <ul>
-        <li>
-          <i class="fas fa-briefcase"></i>
-          <div>
-            <p>회사명</p>
-            <p>직무 / 기간</p>
-          </div>
-        </li>
-        <li>
-          <i class="fas fa-briefcase"></i>
-          <div>
-            <p>회사명</p>
-            <p>직무 / 기간</p>
-          </div>
-        </li>
-      </ul>
-      <h2>프로젝트</h2>
-      <ul>
-        <li>
-          <i class="fas fa-laptop-code"></i>
-          <div>
-            <p>프로젝트명</p>
-            <p>프로젝트 설명</p>
-          </div>
-        </li>
-        <li>
-          <i class="fas fa-laptop-code"></i>
-          <div>
-            <p>프로젝트명</p>
-            <p>프로젝트 설명</p>
-          </div>
-        </li>
-      </ul>
+      <div class="card">
+        <div class="front">
+          <h1>개발자 이력서</h1>
+          <img src="your_photo.jpg" alt="프로필 사진" />
+          <p>이름: 개발자 이름</p>
+          <p>기술 스택: HTML, CSS, JavaScript, Python</p>
+          <h2>경력</h2>
+          <ul>
+            <li>
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <p>회사명</p>
+                <p>직무 / 기간</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <p>회사명</p>
+                <p>직무 / 기간</p>
+              </div>
+            </li>
+          </ul>
+          <h2>프로젝트</h2>
+          <ul>
+            <li>
+              <i class="fas fa-laptop-code"></i>
+              <div>
+                <p>프로젝트명</p>
+                <p>프로젝트 설명</p>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-laptop-code"></i>
+              <div>
+                <p>프로젝트명</p>
+                <p>프로젝트 설명</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="back"></div>
+      </div>
     </div>
+
+    <script>
+      const card = document.querySelector(".card");
+
+      card.addEventListener("click", function () {
+        card.classList.toggle("flipped");
+      });
+    </script>
   </body>
 </html>
