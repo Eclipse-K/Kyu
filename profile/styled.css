@@ -2,6 +2,15 @@ body {
   margin: 0;
 }
 
+/* navbar */
+.navbar-toggler:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /*부모요소*/
 .container-wrapper {
   background-color: black;
@@ -17,4 +26,25 @@ body {
   transform: translate(-50%, 0);
   text-align: center;
   width: 80%;
+}
+
+/* header */
+.text-animation {
+  overflow: hidden;
+}
+
+/* 글자별로 나타나기 */
+.text-animation .introduce {
+  animation: show-introduce 1s linear 1;
+}
+
+@keyframes show-introduce {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
