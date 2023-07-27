@@ -3,23 +3,31 @@ body {
 }
 
 /* navbar */
+nav {
+  position: fixed;
+  border: 1px solid black;
+}
+
+.container-fluid {
+  border: 1px solid black;
+  z-index: 1;
+}
+
 .navbar-toggler:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.nav-item:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+.nav-link:hover {
+  color: seagreen;
 }
 
 /*부모요소*/
 .container-wrapper {
-  background-color: black;
   text-align: center;
 }
 
 .container {
   display: inline-block;
-  background-color: black;
   color: green;
   padding: 0;
   margin-left: 50%;
@@ -29,13 +37,42 @@ body {
 }
 
 /* header */
+header {
+  background-color: rgb(168, 129, 204);
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
 .text-animation {
+  margin-top: 5px;
   overflow: hidden;
 }
 
 /* 글자별로 나타나기 */
 .text-animation .introduce {
   animation: show-introduce 1s linear 1;
+}
+
+.text-title-group {
+  margin-top: 30px;
+}
+
+.introduce-title {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 120px;
+}
+
+.introduce-subtitle {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.introduce-p {
+  margin-top: 10px;
+  font-size: 13px;
 }
 
 @keyframes show-introduce {
