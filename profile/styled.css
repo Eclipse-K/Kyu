@@ -93,7 +93,7 @@ header {
 .text-about-group {
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 65vh;
   margin-top: 50px;
 }
 
@@ -105,38 +105,36 @@ header {
 
 .text-about-self h3 {
   font-size: 25px;
+  font-family: "Black Han Sans", sans-serif;
 }
 .text-about-self {
   font-size: 15px;
   text-align: center;
-  border: 1px solid black;
 }
 
-/*<--->
-
-/* 기본 테이블 스타일 */
-table {
+/* 테이블 스타일 */
+.about-table-group {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
   table-layout: fixed;
 }
 
-th,
-td {
+.about-tr {
   padding: 8px;
-  border: 1px solid #ddd;
+  border-style: none;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+.about-td-1 {
+  font-size: 25px;
+  font-family: "Black Han Sans", sans-serif;
 }
 
-/* 테이블 행 스타일 (선택사항) */
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+/*<--->
+
+
+
+
 
 /* 스마트폰 화면 크기 */
 @media (max-width: 414px) {
