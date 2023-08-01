@@ -93,7 +93,7 @@ header {
 .text-about-group {
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 55vh;
   margin-top: 50px;
 }
 
@@ -128,6 +128,28 @@ header {
 .about-td-1 {
   font-size: 25px;
   font-family: "Black Han Sans", sans-serif;
+}
+
+/* skill */
+.text-skill {
+  height: 50vh;
+}
+
+.text-skill-list {
+  font-size: 40px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.img-skill-react {
+  width: 200px;
+  height: 100px;
+  background-color: black;
+}
+
+.img-skill-html {
+  width: 200px;
+  height: 100px;
+  background-color: bisque;
 }
 
 /*<--->
