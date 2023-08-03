@@ -105,10 +105,23 @@ header {
   margin-top: 50px;
 }
 
-.text-about {
+.about-title {
+  position: relative;
   font-size: 40px;
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 30px;
+}
+
+.about-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background-color: green;
+  transform-origin: bottom center;
+  transform: scaleX(1);
 }
 
 .text-about-self h3 {
@@ -155,7 +168,7 @@ header {
   margin: auto;
 }
 
-.text-skill {
+.text-skill-group {
   width: 100%;
   height: auto;
   background-color: #f2f2f2;
@@ -165,9 +178,22 @@ header {
   padding: 20px 0;
 }
 
-.text-skill-list {
+.skill-title {
+  position: relative;
   font-size: 40px;
   font-family: "Black Han Sans", sans-serif;
+}
+
+.skill-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background-color: green;
+  transform-origin: bottom center;
+  transform: scaleX(1);
 }
 
 .img-skill-react {
@@ -201,9 +227,22 @@ header {
 }
 
 .project-title {
+  position: relative;
   font-size: 40px;
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
+}
+
+.project-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background-color: green;
+  transform-origin: bottom center;
+  transform: scaleX(1);
 }
 
 .project-cafe-group {
