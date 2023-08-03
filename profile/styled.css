@@ -209,6 +209,59 @@ header {
   background-color: bisque;
 }
 
+/*------------ Archive ------------*/
+
+.container-archive-wrapper {
+  display: flex;
+  color: green;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(155, 150, 155);
+}
+
+.container-archive {
+  width: 70%;
+  margin: auto;
+}
+
+.text-archive-group {
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.archive-title {
+  position: relative;
+  font-size: 40px;
+  font-family: "Black Han Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.archive-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background-color: green;
+  transform-origin: bottom center;
+  transform: scaleX(1);
+}
+
+.img-archive-git {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+}
+
 /*------------ Project ------------*/
 
 .container-project-wrapper {
