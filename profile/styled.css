@@ -213,6 +213,8 @@ header {
 
 .container-archive-wrapper {
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: green;
   padding: 0;
   text-align: center;
@@ -256,10 +258,33 @@ header {
   transform: scaleX(1);
 }
 
-.img-archive-git {
+.archive-git-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.archive-git img {
   width: 200px;
   height: 100px;
   background-color: white;
+}
+
+.archive-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.archive-content ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.archive-content li {
+  text-align: left;
 }
 
 /*------------ Project ------------*/
