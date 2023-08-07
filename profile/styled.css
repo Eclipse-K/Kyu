@@ -377,12 +377,33 @@ header {
   .text-animation {
     background-size: cover;
   }
+
+  .img-skill-react {
+    width: 100px;
+    height: 50px;
+  }
+
+  .img-skill-html {
+    width: 100px;
+    height: 50px;
+  }
 }
 
 /* 노트북 화면 크기 */
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 450px) and (max-width: 1366px) {
   .text-animation {
     background-size: cover;
+  }
+
+  /* skill section */
+  .img-skill-react {
+    width: 200px;
+    height: 100px;
+  }
+
+  .img-skill-html {
+    width: 200px;
+    height: 100px;
   }
 }
 
