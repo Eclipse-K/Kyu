@@ -421,7 +421,7 @@ header {
     background-size: cover;
   }
 
-  /* skill section */
+  /* skill */
   .img-skill-react {
     width: 200px;
     height: 100px;
@@ -430,6 +430,49 @@ header {
   .img-skill-html {
     width: 200px;
     height: 100px;
+  }
+
+  /* Project */
+  .container-project-wrapper {
+    height: 1500px;
+  }
+
+  .project-cafe-group,
+  .project-ani-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 이미지와 컨텐츠를 수직으로 가운데 정렬 */
+    width: 100%;
+    margin: auto;
+    background-color: #f2f2f2;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    margin-bottom: 50px;
+  }
+
+  .project-cafe-link img,
+  .project-ani-link img {
+    width: 350px;
+    height: 175px;
+    border: 2px solid black;
+    margin: 20px;
+    align-self: center;
+  }
+
+  .cafe-content,
+  .ani-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+  }
+
+  .cafe-title,
+  .ani-title {
+    font-size: 30px;
+    margin-top: 20px;
   }
 }
 
