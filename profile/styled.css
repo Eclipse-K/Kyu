@@ -395,6 +395,18 @@ header {
   margin-top: 20px;
 }
 
+.ani-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.ani-table tr,
+.ani-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
 /*<--->
 
 
