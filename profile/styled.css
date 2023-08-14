@@ -85,7 +85,7 @@ header {
   padding: 0;
   text-align: center;
   width: 100%;
-  height: 600px;
+  height: 550px;
   background-color: lightgreen;
 }
 
@@ -96,7 +96,7 @@ header {
 
 .text-about-group {
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-color: #f2f2f2;
   border: 3px solid #ccc;
   border-radius: 10px;
@@ -139,6 +139,7 @@ header {
   width: 100%;
   text-align: center;
   table-layout: fixed;
+  margin-top: 30px;
 }
 
 .about-tr {
@@ -221,7 +222,7 @@ header {
   padding: 0;
   text-align: center;
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-color: rgb(155, 150, 155);
 }
 
@@ -298,7 +299,7 @@ header {
   padding: 0;
   text-align: center;
   width: 100%;
-  height: 1000px;
+  height: 1200px;
   background-color: rgb(220, 173, 46);
 }
 
@@ -361,6 +362,25 @@ header {
   margin-top: 20px;
 }
 
+.cafe-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.cafe-table tr,
+.cafe-table td {
+  padding: 8px;
+}
+
+.table-td-c1 {
+  width: 100px;
+}
+
+.table-td-c2 {
+  width: 250px;
+}
+
 .project-ani-group {
   display: flex;
   flex-direction: row;
@@ -398,15 +418,57 @@ header {
 .ani-table {
   border-collapse: collapse;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .ani-table tr,
 .ani-table td {
   padding: 8px;
-  border: 1px solid #ddd;
 }
 
+.table-td-a1 {
+  width: 100px;
+}
+
+.table-td-a2 {
+  width: 250px;
+}
+
+/* Career */
+
+.container-career-wrapper {
+  display: flex;
+  color: green;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(124, 37, 102);
+}
+
+.container-career {
+  width: 80%;
+  margin: auto;
+}
+
+.career-title {
+  position: relative;
+  font-size: 40px;
+  font-family: "Black Han Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.career-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background-color: green;
+  transform-origin: bottom center;
+  transform: scaleX(1);
+}
 /*<--->
 
 
@@ -446,7 +508,7 @@ header {
 
   /* Project */
   .container-project-wrapper {
-    height: 2000px;
+    height: 1900px;
   }
 
   .project-cafe-group,
