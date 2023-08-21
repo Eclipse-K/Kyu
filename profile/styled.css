@@ -475,48 +475,21 @@ header {
 
 .career-group-timeline {
   position: relative;
-  width: 2px;
+  width: 100%;
   height: 480px;
   background-color: #333;
-}
-
-.career-circle {
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background-color: #333;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  transition: background-color 0.3s;
+  overflow: hidden;
 }
 
 .career-box {
-  position: relative;
+  position: absolute;
   padding: 10px;
-  margin-left: 20px;
   background-color: #fff;
   border: 1px solid #333;
   border-radius: 5px;
   width: 250px;
   display: block;
-}
-
-.career-circle:hover {
-  background-color: #e74c3c;
-}
-
-.career-circle.active {
-  background-color: #e74c3c;
-}
-
-.career-box:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -10px;
-  border-width: 10px;
-  border-style: solid;
-  border-color: transparent transparent transparent #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .career-subtitle {
