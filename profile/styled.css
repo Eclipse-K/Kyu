@@ -32,7 +32,6 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
-  margin-top: 5px;
   height: 400px;
   overflow: hidden;
 }
@@ -498,23 +497,27 @@ header {
 }
 
 .top-left {
-  top: 20%;
-  left: 10%;
+  width: 30%;
+  top: 15%;
+  left: 15%;
 }
 
 .top-right {
-  top: 20%;
-  right: 10%;
+  width: 30%;
+  top: 15%;
+  right: 15%;
 }
 
 .bottom-left {
-  bottom: 20%;
-  left: 10%;
+  width: 30%;
+  bottom: 15%;
+  left: 15%;
 }
 
 .bottom-right {
-  bottom: 20%;
-  right: 10%;
+  width: 30%;
+  bottom: 15%;
+  right: 15%;
 }
 
 .career-subtitle {
@@ -609,6 +612,32 @@ header {
   .ani-title {
     font-size: 30px;
     margin-top: 20px;
+  }
+
+  /* career section */
+
+  .top-left {
+    width: 37%;
+    top: 20%;
+    left: 10%;
+  }
+
+  .top-right {
+    width: 37%;
+    top: 20%;
+    right: 10%;
+  }
+
+  .bottom-left {
+    width: 37%;
+    bottom: 20%;
+    left: 10%;
+  }
+
+  .bottom-right {
+    width: 37%;
+    bottom: 20%;
+    right: 10%;
   }
 }
 
