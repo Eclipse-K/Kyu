@@ -435,7 +435,7 @@ header {
   width: 250px;
 }
 
-/* Career */
+/*------------ Career ------------*/
 
 .container-career-wrapper {
   display: flex;
@@ -533,6 +533,12 @@ header {
 
 .career-description {
   font-size: 14px;
+}
+
+/*------------ footer ------------*/
+
+.container-footer-wrapper {
+  text-align: center;
 }
 /*<--->
 
@@ -638,6 +644,22 @@ header {
     width: 37%;
     bottom: 20%;
     right: 10%;
+  }
+
+  .career-subtitle {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .career-period {
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .career-description {
+    font-size: 12px;
   }
 }
 
