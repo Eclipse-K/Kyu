@@ -549,6 +549,12 @@ header {
   color: white;
   text-decoration: none;
 }
+
+/*------------ up-scroll ------------*/
+.up-scroll {
+  text-decoration: none;
+  color: green;
+}
 /*<--->
 
 
