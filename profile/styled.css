@@ -539,6 +539,15 @@ header {
 
 .container-footer-wrapper {
   text-align: center;
+  background-color: rgb(49, 47, 47);
+  height: 40px;
+  padding: 10px;
+  color: white;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: none;
 }
 /*<--->
 
