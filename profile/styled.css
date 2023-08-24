@@ -373,12 +373,20 @@ header {
   padding: 8px;
 }
 
-.table-td-c1 {
+.table-td-c1,
+.table-td-a1 {
   width: 100px;
 }
 
-.table-td-c2 {
+.table-td-c2,
+.table-td-a2 {
   width: 250px;
+}
+
+.table-td-c2 a,
+.table-td-a2 a {
+  text-decoration: none;
+  color: green;
 }
 
 .project-ani-group {
@@ -425,14 +433,6 @@ header {
 .ani-table tr,
 .ani-table td {
   padding: 8px;
-}
-
-.table-td-a1 {
-  width: 100px;
-}
-
-.table-td-a2 {
-  width: 250px;
 }
 
 /*------------ Career ------------*/
