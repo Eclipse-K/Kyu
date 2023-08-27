@@ -182,6 +182,7 @@ header {
   position: relative;
   font-size: 40px;
   font-family: "Black Han Sans", sans-serif;
+  margin-bottom: 20px;
 }
 
 .skill-title::after {
@@ -553,7 +554,11 @@ header {
 /*------------ up-scroll ------------*/
 .up-scroll {
   text-decoration: none;
-  color: green;
+  color: rgb(0, 128, 0, 0.5);
+}
+
+.up-scroll:hover {
+  color: rgb(0, 128, 0);
 }
 /*<--->
 
@@ -582,6 +587,14 @@ header {
   }
 
   /* skill */
+  .container-skill-wrapper {
+    height: 350px;
+  }
+
+  .text-skill-group {
+    height: 200px;
+  }
+
   .img-skill-react {
     width: 200px;
     height: 100px;
