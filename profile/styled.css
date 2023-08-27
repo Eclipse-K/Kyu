@@ -618,9 +618,14 @@ header {
     margin-left: 20px;
   }
 
+  /* Archive */
+  .container-archive-wrapper {
+    height: 450px;
+  }
+
   /* Project */
   .container-project-wrapper {
-    height: 1900px;
+    height: 1750px;
   }
 
   .project-cafe-group,
@@ -661,7 +666,10 @@ header {
     margin-top: 20px;
   }
 
-  /* career section */
+  /* Career section */
+  .container-career-wrapper {
+    height: 550px;
+  }
 
   .top-left {
     width: 37%;
