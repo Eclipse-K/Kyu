@@ -588,7 +588,7 @@ header {
 }
 
 /* 노트북 화면 크기 */
-@media (min-width: 450px) and (max-width: 1366px) {
+@media (min-width: 420px) and (max-width: 1366px) {
   .text-animation {
     background-size: cover;
   }
@@ -625,7 +625,7 @@ header {
 
   /* Project */
   .container-project-wrapper {
-    height: 1750px;
+    height: 1870px;
   }
 
   .project-cafe-group,
