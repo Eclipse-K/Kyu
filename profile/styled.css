@@ -27,7 +27,7 @@ header {
 }
 
 .text-animation {
-  background-image: url(/profile/images/Profile-title-image.png);
+  background-image: url(images/Profile-title-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
