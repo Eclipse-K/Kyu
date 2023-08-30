@@ -293,7 +293,10 @@ nav {
 
 .archive-content ul {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .archive-content li {
@@ -647,6 +650,36 @@ nav {
     width: 120px;
     height: 60px;
     margin-left: 15px;
+  }
+
+  /* archive */
+  .container-archive-wrapper {
+    height: 300px;
+  }
+
+  .archive-title {
+    font-size: 30px;
+  }
+
+  .archive-title::after {
+    left: 20%;
+    width: 63%;
+  }
+
+  .archive-git img {
+    width: 150px;
+    height: 70px;
+  }
+
+  .archive-content ul {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .archive-content li {
+    font-size: 12px;
   }
 }
 
