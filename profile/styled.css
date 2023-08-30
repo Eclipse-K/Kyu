@@ -620,20 +620,33 @@ nav {
   }
 
   /* skill */
+  .container-skill-wrapper {
+    height: 300px;
+  }
 
   .skill-title::after {
     left: 30%;
     width: 45%;
   }
 
+  .text-skill-group {
+    height: 150px;
+  }
+
+  .skill-img-group {
+    height: 100px;
+  }
+
   .img-skill-react {
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
+    margin-right: 15px;
   }
 
   .img-skill-html {
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
+    margin-left: 15px;
   }
 }
 
