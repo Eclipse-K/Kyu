@@ -576,7 +576,7 @@ nav {
 /*<--->
 
 
-/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+/*---------- 모바일 가로, 테블릿 세로 (해상도 ~ 479px) ----------*/
 @media all and (max-width: 479px) {
   /* header */
 
@@ -592,7 +592,7 @@ nav {
     font-size: 12px;
   }
 
-  /* about */
+  /*---------- about ----------*/
   .container-about-wrapper {
     height: 450px;
   }
@@ -622,7 +622,7 @@ nav {
     font-size: 10px;
   }
 
-  /* skill */
+  /*---------- skill ----------*/
   .container-skill-wrapper {
     height: 300px;
   }
@@ -652,7 +652,7 @@ nav {
     margin-left: 15px;
   }
 
-  /* archive */
+  /*---------- archive ----------*/
   .container-archive-wrapper {
     height: 300px;
   }
@@ -682,7 +682,11 @@ nav {
     font-size: 12px;
   }
 
-  /* project */
+  /*---------- project -----------*/
+  .container-project-wrapper {
+    height: 1350px;
+  }
+
   .project-title {
     font-size: 30px;
   }
@@ -718,10 +722,42 @@ nav {
   .table-td-c2 {
     font-size: 12px;
   }
+
+  .project-ani-group {
+    flex-direction: column;
+  }
+
+  .project-ani-link img {
+    width: 270px;
+    height: 150px;
+  }
+
+  .ani-title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .ani-content {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .ani-table td {
+    padding: 3px;
+  }
+
+  .ani-td-c1 {
+    font-size: 12px;
+  }
+
+  .ani-td-c2 {
+    font-size: 12px;
+  }
 }
 
 /* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 500px) and (max-width: 1023px) {
   /* skill */
   .container-skill-wrapper {
     height: 370px;
