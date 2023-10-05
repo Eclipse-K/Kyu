@@ -370,6 +370,10 @@ nav {
   width: 50%;
 }
 
+.cafe-content p {
+  text-indent: 20px;
+}
+
 .cafe-title {
   font-size: 30px;
   font-family: "Black Han Sans", sans-serif;
@@ -430,6 +434,10 @@ nav {
   text-align: left;
   flex-direction: column;
   width: 50%;
+}
+
+.ani-content p {
+  text-indent: 20px;
 }
 
 .ani-title {
