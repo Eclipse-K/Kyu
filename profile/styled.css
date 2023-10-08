@@ -365,13 +365,13 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: justify;
   flex-direction: column;
   width: 50%;
 }
 
 .cafe-content p {
-  text-indent: 20px;
+  text-indent: 10px;
 }
 
 .cafe-title {
@@ -431,13 +431,13 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: justify;
   flex-direction: column;
   width: 50%;
 }
 
 .ani-content p {
-  text-indent: 20px;
+  text-indent: 10px;
 }
 
 .ani-title {
@@ -715,7 +715,7 @@ nav {
 
   .cafe-content {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 30px;
     font-size: 12px;
   }
 
@@ -747,7 +747,7 @@ nav {
 
   .ani-content {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 30px;
     font-size: 12px;
   }
 
