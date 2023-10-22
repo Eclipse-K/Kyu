@@ -353,6 +353,12 @@ nav {
   margin-bottom: 50px;
 }
 
+.project-cafe-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-cafe-link img {
   width: 500px;
   height: 300px;
@@ -418,6 +424,12 @@ nav {
   border-radius: 10px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
   padding: 20px 0;
+}
+
+.project-ani-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-ani-link img {
