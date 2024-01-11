@@ -168,13 +168,13 @@ body {
 
 .container-skill-wrapper {
   display: flex;
-  color: green;
+  color: black;
   padding: 0;
   text-align: center;
   justify-content: center;
   width: 100%;
   height: 500px;
-  background-color: rgb(51, 205, 172);
+  background-color: #52be80;
 }
 
 .container-skill {
@@ -602,7 +602,7 @@ body {
 }
 
 .up-scroll:hover {
-  color: rgb(0, 0, 0, 0.5);
+  color: rgba(255, 254, 254, 0.5);
 }
 /*<--->
 
