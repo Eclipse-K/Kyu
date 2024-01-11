@@ -327,7 +327,7 @@ body {
   text-align: center;
   width: 100%;
   height: 1200px;
-  background-color: #cacfd2;
+  background-color: #e5e8e8;
 }
 
 .container-project {
@@ -494,13 +494,13 @@ body {
 
 .container-career-wrapper {
   display: flex;
-  color: green;
+  color: black;
   padding: 0;
   margin: 0;
   text-align: center;
   width: 100%;
   height: 600px;
-  background-color: rgb(68, 150, 182);
+  background-color: #f4ecf7;
 }
 
 .container-career {
@@ -522,7 +522,7 @@ body {
   left: 25%;
   width: 50%;
   height: 2px;
-  background-color: green;
+  background-color: black;
   transform-origin: bottom center;
   transform: scaleX(1);
 }
@@ -577,6 +577,7 @@ body {
 
 .career-subtitle {
   font-weight: bold;
+  font-family: "Sunflower", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -588,6 +589,7 @@ body {
 
 .career-description {
   font-size: 14px;
+  font-family: "Sunflower", sans-serif;
 }
 
 /*------------ footer ------------*/
