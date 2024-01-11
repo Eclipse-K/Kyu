@@ -123,7 +123,7 @@ body {
   left: 25%;
   width: 50%;
   height: 2px;
-  background-color: white;
+  background-color: black;
   transform-origin: bottom center;
   transform: scaleX(1);
 }
@@ -206,7 +206,7 @@ body {
   left: 25%;
   width: 50%;
   height: 2px;
-  background-color: green;
+  background-color: black;
   transform-origin: bottom center;
   transform: scaleX(1);
 }
@@ -245,7 +245,7 @@ body {
   text-align: center;
   width: 100%;
   height: 500px;
-  background-color: #dc7633;
+  background-color: #f6ddcc;
 }
 
 .container-archive {
@@ -277,7 +277,7 @@ body {
   left: 25%;
   width: 50%;
   height: 2px;
-  background-color: green;
+  background-color: black;
   transform-origin: bottom center;
   transform: scaleX(1);
 }
@@ -322,12 +322,12 @@ body {
 
 .container-project-wrapper {
   display: flex;
-  color: green;
+  color: black;
   padding: 0;
   text-align: center;
   width: 100%;
   height: 1200px;
-  background-color: rgb(220, 173, 46);
+  background-color: #cacfd2;
 }
 
 .container-project {
@@ -349,7 +349,7 @@ body {
   left: 25%;
   width: 50%;
   height: 2px;
-  background-color: green;
+  background-color: black;
   transform-origin: bottom center;
   transform: scaleX(1);
 }
@@ -376,7 +376,8 @@ body {
 .project-cafe-link img {
   width: 500px;
   height: 300px;
-  border: 2px solid black;
+  border: 2px double black;
+  border-radius: 5px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -392,6 +393,7 @@ body {
 
 .cafe-content p {
   text-indent: 10px;
+  font-family: "Sunflower", sans-serif;
 }
 
 .cafe-title {
@@ -404,6 +406,7 @@ body {
   border-collapse: collapse;
   width: 100%;
   text-align: left;
+  font-family: "Sunflower", sans-serif;
 }
 
 .cafe-table tr,
@@ -425,7 +428,7 @@ body {
 .table-td-c2 a,
 .table-td-a2 a {
   text-decoration: none;
-  color: green;
+  color: black;
 }
 
 .project-ani-group {
@@ -449,7 +452,8 @@ body {
 .project-ani-link img {
   width: 500px;
   height: 300px;
-  border: 2px solid black;
+  border: 2px double black;
+  border-radius: 5px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -465,6 +469,7 @@ body {
 
 .ani-content p {
   text-indent: 10px;
+  font-family: "Sunflower", sans-serif;
 }
 
 .ani-title {
@@ -477,6 +482,7 @@ body {
   border-collapse: collapse;
   width: 100%;
   text-align: left;
+  font-family: "Sunflower", sans-serif;
 }
 
 .ani-table tr,
