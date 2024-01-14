@@ -7,6 +7,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
+  border-bottom: 2px solid gray;
 }
 
 .container-fluid {
@@ -91,6 +92,8 @@ body {
   width: 100%;
   height: 550px;
   background-color: #5dade2;
+  border: 4px dashed transparent;
+  transition: border-color 3s ease;
 }
 
 .container-about {
@@ -175,6 +178,8 @@ body {
   width: 100%;
   height: 500px;
   background-color: #52be80;
+  border: 4px dashed transparent;
+  transition: border-color 3s ease;
 }
 
 .container-skill {
@@ -246,6 +251,8 @@ body {
   width: 100%;
   height: 500px;
   background-color: #f6ddcc;
+  border: 4px dashed transparent;
+  transition: border-color 3s ease;
 }
 
 .container-archive {
@@ -328,6 +335,8 @@ body {
   width: 100%;
   height: 1200px;
   background-color: #e5e8e8;
+  border: 4px dashed transparent;
+  transition: border-color 3s ease;
 }
 
 .container-project {
@@ -501,6 +510,8 @@ body {
   width: 100%;
   height: 600px;
   background-color: #f4ecf7;
+  border: 4px dashed transparent;
+  transition: border-color 3s ease;
 }
 
 .container-career {
@@ -618,6 +629,11 @@ body {
 }
 /*<--->
 
+/*------------ border-scroll ------------*/
+
+.scrolled {
+  border-color: lightslategray;
+}
 
 /*---------- 모바일 가로, 테블릿 세로 (해상도 ~ 479px) ----------*/
 @media all and (max-width: 479px) {
