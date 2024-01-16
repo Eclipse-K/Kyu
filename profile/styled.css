@@ -30,7 +30,7 @@ body {
 }
 
 .text-animation {
-  background-image: url(images/Profile-title-image.png);
+  background-image: url(images/MainTitleImg_S.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,45 +47,49 @@ body {
 
 .text-title-group {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-wrap: wrap;
   position: absolute;
   bottom: 0;
   width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .introduce-title {
   width: 100%;
+  margin: 0;
   font-family: "Black Han Sans", sans-serif;
   font-size: 45px;
   animation: show-introduce 1s linear 1;
+  text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
 .introduce-subtitle {
   width: 100%;
+  margin: 0;
   font-family: "Black Han Sans", sans-serif;
   font-size: 30px;
-  margin-bottom: 20px;
   animation: show-introduce 1.2s linear 1;
+  text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
 .introduce-p {
   width: 100%;
-  color: black;
-  margin-bottom: 20px;
+  margin: 0;
   font-size: 15px;
   font-weight: bold;
   animation: show-introduce 1.5s linear 1;
+  text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
 @keyframes show-introduce {
   0% {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -100,7 +104,7 @@ body {
   text-align: center;
   width: 100%;
   height: 550px;
-  background-color: #5dade2;
+  background-color: rgb(0, 0, 0);
   border: 4px dashed transparent;
   transition: border 0.5s ease;
 }
@@ -114,9 +118,9 @@ body {
   width: 100%;
   height: 350px;
   background-color: #f2f2f2;
-  border: 3px solid #ccc;
+  border: 5px double #ccc;
   border-radius: 10px;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 6px rgba(255, 255, 255, 0.5);
   padding: 20px 0;
 }
 
@@ -125,7 +129,8 @@ body {
   font-size: 40px;
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
-  color: black;
+  color: whitesmoke;
+  text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
 .about-title::after {
@@ -135,7 +140,8 @@ body {
   left: 25%;
   width: 50%;
   height: 2px;
-  background-color: black;
+  background-color: whitesmoke;
+  box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
   transform-origin: bottom center;
   transform: scaleX(1);
 }
@@ -630,7 +636,8 @@ body {
 /*------------ up-scroll ------------*/
 .up-scroll {
   text-decoration: none;
-  color: black;
+  color: white;
+  text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
 .up-scroll:hover {
