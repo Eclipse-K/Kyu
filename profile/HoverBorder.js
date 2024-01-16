@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       // 현재 마우스 오버된 요소의 border 색상을 변경
-      borderContainer.style.borderColor = "black"; // 예시로 파란색 사용, 원하는 색상으로 변경 가능
+      borderContainer.style.borderColor = "white"; // 예시로 파란색 사용, 원하는 색상으로 변경 가능
 
       // 현재 마우스 오버된 요소를 추적
       currentContainer = borderContainer;
