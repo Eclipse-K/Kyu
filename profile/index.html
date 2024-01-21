@@ -85,11 +85,11 @@
     <!--about section-->
     <div class="container-about-wrapper" id="about">
       <div class="container-about">
-        <h1 class="about-title">
+        <div class="about-title">
           <a href="#" class="up-scroll">❖</a>
-          About Me
-        </h1>
-        <div class="text-about-group">
+          <h1 id="aboutTitle">About Me</h1>
+        </div>
+        <div class="text-about-group" id="aboutGroup">
           <div class="text-about-self">
             <h3>소개</h3>
             <p class="text-about-content">
@@ -342,6 +342,15 @@
         </p>
       </footer>
     </div>
+
+    <script>
+      document
+        .getElementById("aboutTitle")
+        .addEventListener("click", function () {
+          // h1 태그를 클릭할 때마다 클래스를 토글하여 그룹의 효과 발생
+          document.getElementById("aboutGroup").classList.toggle("clicked");
+        });
+    </script>
 
     <script src="LinkToggle.js"></script>
     <script src="HoverBorder.js"></script>
