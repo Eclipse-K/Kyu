@@ -441,9 +441,17 @@ body {
   margin: auto;
 }
 
-.project-title {
-  position: relative;
+#projectTitle {
+  cursor: pointer;
+  margin: 0;
   font-size: 40px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
   color: whitesmoke;
@@ -474,6 +482,13 @@ body {
   box-shadow: 4px 4px 6px rgba(255, 255, 255, 0.5);
   padding: 20px 0;
   margin-bottom: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+  transform: scale(0);
+}
+
+.project-cafe-group.clicked {
+  transform: scale(1);
 }
 
 .project-cafe-link {
@@ -550,6 +565,13 @@ body {
   border-radius: 10px;
   box-shadow: 4px 4px 6px rgba(255, 255, 255, 0.5);
   padding: 20px 0;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+  transform: scale(0);
+}
+
+.project-ani-group.clicked {
+  transform: scale(1);
 }
 
 .project-ani-link {

@@ -10,3 +10,11 @@ document.getElementById("skillTitle").addEventListener("click", function () {
 document.getElementById("archiveTitle").addEventListener("click", function () {
   document.getElementById("archiveGroup").classList.toggle("clicked");
 });
+
+document.getElementById("projectTitle").addEventListener("click", function () {
+  document.getElementById("projectCafeGroup").classList.toggle("clicked");
+});
+
+document.getElementById("projectTitle").addEventListener("click", function () {
+  document.getElementById("projectAniGroup").classList.toggle("clicked");
+});
