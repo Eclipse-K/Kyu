@@ -18,3 +18,7 @@ document.getElementById("projectTitle").addEventListener("click", function () {
 document.getElementById("projectTitle").addEventListener("click", function () {
   document.getElementById("projectAniGroup").classList.toggle("clicked");
 });
+
+document.getElementById("careerTitle").addEventListener("click", function () {
+  document.getElementById("careerGroupTimeline").classList.toggle("clicked");
+});

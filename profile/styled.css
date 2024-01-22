@@ -642,8 +642,10 @@ body {
 }
 
 .career-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  font-size: 40px;
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
   color: whitesmoke;
@@ -663,6 +665,12 @@ body {
   box-shadow: 4px 4px 6px rgba(255, 255, 255, 0.5);
 }
 
+#careerTitle {
+  cursor: pointer;
+  margin: 0;
+  font-size: 40px;
+}
+
 .career-group-timeline {
   position: relative;
   width: 100%;
@@ -674,6 +682,13 @@ body {
   overflow: hidden;
   box-shadow: 4px 4px 6px rgba(255, 255, 255, 0.5);
   justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+  transform: scale(0);
+}
+
+.career-group-timeline.clicked {
+  transform: scale(1);
 }
 
 .career-box {
