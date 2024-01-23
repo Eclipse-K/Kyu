@@ -134,10 +134,14 @@ body {
   padding: 0;
   text-align: center;
   width: 100%;
-  height: 550px;
+  height: 100px;
   background-color: rgb(0, 0, 0);
   border: 4px dashed transparent;
   transition: border 0.5s ease;
+}
+
+.container-about-wrapper.clicked {
+  height: 550px;
 }
 
 .container-about {
