@@ -16,12 +16,11 @@ document.getElementById("archiveTitle").addEventListener("click", function () {
 
 document.getElementById("projectTitle").addEventListener("click", function () {
   document.getElementById("projectCafeGroup").classList.toggle("clicked");
-});
-
-document.getElementById("projectTitle").addEventListener("click", function () {
   document.getElementById("projectAniGroup").classList.toggle("clicked");
+  document.getElementById("project").classList.toggle("clicked");
 });
 
 document.getElementById("careerTitle").addEventListener("click", function () {
   document.getElementById("careerGroupTimeline").classList.toggle("clicked");
+  document.getElementById("career").classList.toggle("clicked");
 });
