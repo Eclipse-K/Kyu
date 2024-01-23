@@ -6,10 +6,12 @@ document.getElementById("aboutTitle").addEventListener("click", function () {
 
 document.getElementById("skillTitle").addEventListener("click", function () {
   document.getElementById("skillGroup").classList.toggle("clicked");
+  document.getElementById("skill").classList.toggle("clicked");
 });
 
 document.getElementById("archiveTitle").addEventListener("click", function () {
   document.getElementById("archiveGroup").classList.toggle("clicked");
+  document.getElementById("archive").classList.toggle("clicked");
 });
 
 document.getElementById("projectTitle").addEventListener("click", function () {

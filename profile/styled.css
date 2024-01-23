@@ -241,10 +241,14 @@ body {
   text-align: center;
   justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 100px;
   background-color: rgb(0, 0, 0);
   border: 4px dashed transparent;
   transition: border 0.5s ease;
+}
+
+.container-skill-wrapper.clicked {
+  height: 500px;
 }
 
 .container-skill {
@@ -332,10 +336,14 @@ body {
   padding: 0;
   text-align: center;
   width: 100%;
-  height: 500px;
+  height: 100px;
   background-color: rgb(0, 0, 0);
   border: 4px dashed transparent;
   transition: border 0.5s ease;
+}
+
+.container-archive-wrapper.clicked {
+  height: 500px;
 }
 
 .container-archive {
@@ -810,8 +818,13 @@ body {
 
   /*---------- about ----------*/
   .container-about-wrapper {
+    height: 100px;
+  }
+
+  .container-about-wrapper.clicked {
     height: 450px;
   }
+
   .about-title,
   .skill-title {
     font-size: 30px;
@@ -840,6 +853,10 @@ body {
 
   /*---------- skill ----------*/
   .container-skill-wrapper {
+    height: 100px;
+  }
+
+  .container-skill-wrapper.clicked {
     height: 300px;
   }
 
@@ -870,6 +887,10 @@ body {
 
   /*---------- archive ----------*/
   .container-archive-wrapper {
+    height: 100px;
+  }
+
+  .container-archive-wrapper.clicked {
     height: 300px;
   }
 
@@ -1039,6 +1060,10 @@ body {
 
   /* skill */
   .container-skill-wrapper {
+    height: 100px;
+  }
+
+  .container-skill-wrapper.clicked {
     height: 370px;
   }
 
@@ -1064,6 +1089,10 @@ body {
 
   /* Archive */
   .container-archive-wrapper {
+    height: 100px;
+  }
+
+  .container-about-wrapper.clicked {
     height: 450px;
   }
 
