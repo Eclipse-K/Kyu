@@ -124,6 +124,17 @@ body {
   }
 }
 
+@keyframes positioning {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /*------------ About ------------*/
 
 /*부모요소*/
@@ -180,6 +191,7 @@ body {
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
   color: whitesmoke;
+  animation: positioning 1.5s ease-in-out 1;
   text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
@@ -287,6 +299,7 @@ body {
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
   color: whitesmoke;
+  animation: positioning 2s ease-in-out 1;
   text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
@@ -382,6 +395,7 @@ body {
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
   color: whitesmoke;
+  animation: positioning 2.5s ease-in-out 1;
   text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
@@ -472,6 +486,7 @@ body {
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
   color: whitesmoke;
+  animation: positioning 2s ease-in-out 1;
   text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.5);
 }
 
@@ -675,6 +690,7 @@ body {
   font-family: "Black Han Sans", sans-serif;
   margin-bottom: 20px;
   color: whitesmoke;
+  animation: positioning 1.5s ease-in-out 1;
   text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.5);
 }
 
@@ -849,8 +865,7 @@ body {
   } */
 
   .about-title::after {
-    left: 20%;
-    width: 65%;
+    width: 70%;
   }
 
   #aboutTitle,
@@ -925,8 +940,7 @@ body {
   }
 
   .archive-title::after {
-    left: 20%;
-    width: 63%;
+    width: 65%;
   }
 
   .archive-git img {
@@ -956,6 +970,11 @@ body {
 
   .project-title {
     font-size: 30px;
+  }
+
+  .project-title::after {
+    left: 20%;
+    width: 60%;
   }
 
   .project-cafe-group {
@@ -1035,6 +1054,10 @@ body {
     font-size: 30px;
   }
 
+  .career-title::after {
+    width: 50%;
+  }
+
   .career-group-timeline {
     height: 270px;
   }
@@ -1092,6 +1115,11 @@ body {
     width: 10%;
   }
 
+  /* about */
+  .about-title::after {
+    width: 50%;
+  }
+
   /* skill */
   .container-skill-wrapper {
     height: 100px;
@@ -1099,6 +1127,11 @@ body {
 
   .container-skill-wrapper.clicked {
     height: 370px;
+  }
+
+  .skill-title::after {
+    left: 32%;
+    width: 40%;
   }
 
   .text-skill-group {
@@ -1130,6 +1163,10 @@ body {
     height: 450px;
   }
 
+  .archive-title::after {
+    width: 50%;
+  }
+
   /* Project */
   .container-project-wrapper {
     height: 100px;
@@ -1137,6 +1174,11 @@ body {
 
   .container-project-wrapper.clicked {
     height: 1870px;
+  }
+
+  .project-title::after {
+    left: 32%;
+    width: 40%;
   }
 
   .project-cafe-group,
