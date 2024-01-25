@@ -158,7 +158,7 @@ body {
 .container-about {
   width: 80%;
   height: 100%;
-  margin: auto;
+  margin-top: 15px;
 }
 
 .text-about-group {
@@ -266,7 +266,7 @@ body {
 .container-skill {
   width: 80%;
   height: 100%;
-  margin: auto;
+  margin-top: 10px;
 }
 
 .text-skill-group {
@@ -362,7 +362,7 @@ body {
 .container-archive {
   width: 80%;
   height: 100%;
-  margin: auto;
+  margin-top: 15px;
 }
 
 .text-archive-group {
@@ -452,6 +452,8 @@ body {
 
 .container-project-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   padding: 0;
   text-align: center;
@@ -469,7 +471,7 @@ body {
 .container-project {
   width: 80%;
   height: 100%;
-  margin: auto;
+  margin-top: 15px;
 }
 
 #projectTitle {
@@ -661,6 +663,8 @@ body {
 
 .container-career-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   padding: 0;
   margin: 0;
@@ -679,7 +683,7 @@ body {
 .container-career {
   width: 80%;
   height: 100%;
-  margin: auto;
+  margin-top: 15px;
 }
 
 .career-title {
